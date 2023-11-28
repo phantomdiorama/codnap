@@ -4,8 +4,9 @@
 
 # cod nap
 
-A tiny powershell script for building a website with Pandoc. Used to
-build my [blog](https://www.michaelbuckleywriter.com/)
+Two tiny scripts, one powershell, one bash, for building a website
+with Pandoc. Used to build my
+[blog](https://www.michaelbuckleywriter.com/)
 
 ## you absolutely should not use this
 
@@ -15,6 +16,6 @@ a full blown SSG.
 
 ## thanks
 
-Fish image from [OpedClipart][O]
+Fish by [OpenClipart][O]
 
 [O]: ahttps://openclipart.org/detail/253447/alergeno-pescadofish
