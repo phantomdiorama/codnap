@@ -16,6 +16,6 @@ a full blown SSG.
 
 ## thanks
 
-Fish by [OpenClipart][O]
+Fish by [OpenClipart][O]. I flipped it upside down.
 
 [O]: ahttps://openclipart.org/detail/253447/alergeno-pescadofish
