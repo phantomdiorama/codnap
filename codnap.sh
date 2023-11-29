@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # cod nap
 
 # create folder if not exist

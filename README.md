@@ -4,14 +4,15 @@
 
 # cod nap
 
-Two tiny scripts, one powershell, one bash, for building a website
-with Pandoc. Used to build my
-[blog](https://www.michaelbuckleywriter.com/)
+A tiny script for powershell (or bash) for building a website
+with Pandoc.
+
+Used to build my [blog](https://www.michaelbuckleywriter.com/).
 
 ## you absolutely should not use this
 
 This is just an idea. It might be useful for folks that don’t want to use
-a full blown SSG.
+a full blown static site generator.
 
 
 ## thanks
