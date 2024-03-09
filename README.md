@@ -4,16 +4,17 @@
 
 # cod nap
 
-A tiny script for powershell (or bash) for building a website
-with Pandoc.
+A tiny script for for building a website
+with Pandoc. Poweshell or Bash.
 
 Used to build my [blog](https://www.michaelbuckleywriter.com/).
 
-## you absolutely should not use this
+## you probably shouldn’t use this
 
-This is just an idea. It might be useful for folks that don’t want to use
-a full blown static site generator.
-
+This is a *least effort* script to get a website up. It doesn’t
+automatically create index pages or RSS feeds. There’s no local web server
+or live reload. It’s minimal and manual—it just takes markdown and spits
+out html.
 
 ## thanks
 
