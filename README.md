@@ -4,8 +4,8 @@
 
 # cod nap
 
-A tiny script for for building a website
-with Pandoc. Poweshell or Bash.
+A tiny script for building a website
+with Pandoc. Powershell or Bash.
 
 Used to build my [blog](https://www.michaelbuckleywriter.com/).
 
