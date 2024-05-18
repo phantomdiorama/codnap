@@ -13,5 +13,5 @@ cp {*.png,*.jpg} ./public/images
 for i in *.md
  do
 name=$(echo "$i" | cut -f 1 -d '.')
-pandoc --defaults blog.yaml $i -o ./public/$name.html
+pandoc --defaults blog.yaml "$i" -o ./public/"$name".html
 done
