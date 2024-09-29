@@ -1,23 +1,30 @@
-# Set Variables
-$config = "blog.yaml"
-$folder = "public\images"
+# create output folder
+New-Item -name "public\posts" -type directory -force
 
-# create folder if not exist
-if ( -Not (Test-Path $folder.trim() ))
-{
- New-Item -Path $folder -ItemType Directory
-}
+# copy images
+Copy-Item images\ public\ -recurse
 
-# Copy files to public
-Copy-Item *.css public\
-Copy-Item *.xml public\
-Copy-Item *.png public\images\
-Copy-Item *.jpg public\images\
+# copy files to public
+Copy-Item atom.xml public\
+Copy-Item style.css public\
+Copy-Item style.css public\posts\
 
-# Build website with Pandoc
+# build pages
 foreach ($file in get-ChildItem *.md) {
   $str=$file.basename+".html"
   echo $str
-  pandoc --defaults $config $file.name -o public\$str
+  pandoc --defaults blog.yaml $file.name -o public\$str
  }
+
+# swap to posts dir
+Set-Location posts
+
+# build posts
+foreach ($file in get-ChildItem *.md) {
+  $str=$file.basename+".html"
+  echo $str
+  pandoc --defaults blog.yaml $file.name -o ..\public\posts\$str
+ }
+
 pause
+
