@@ -10,6 +10,7 @@ cp ./images ./public/images
 
 # Copy files to public
 cp atom.xml ./public
+cp style.css ./public
 cp style.css ./public/posts
 
 # build pages
